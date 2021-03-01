@@ -1,0 +1,7 @@
+com\github\deadspark\wouldyourather\utils\QuestionsDataFile.class
+com\github\deadspark\wouldyourather\commands\SendVoteToOne.class
+com\github\deadspark\wouldyourather\utils\OptionVotes.class
+com\github\deadspark\wouldyourather\WouldYouRather.class
+com\github\deadspark\wouldyourather\commands\SendVoteToTwo.class
+com\github\deadspark\wouldyourather\commands\WYRCommand.class
+com\github\deadspark\wouldyourather\utils\RandomWouldYouRather.class

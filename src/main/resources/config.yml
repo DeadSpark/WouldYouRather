@@ -1,0 +1,25 @@
+# The time must be in minecraft ticks value i.e. 20 ticks = 1 second
+Interval: 2400
+
+# Economic rewards
+# Requires Vault plugin
+# The amount that will be given to the players in the winning vote
+# Set 0 to disable
+Amount: 100
+
+# Custom commands to be executed after the vote results are calculated
+# Do not include the "/" in commands unless the command requires multiple slash
+# These are executed by console and does not requires special permissions
+GlobalCustomCommands:
+  #- "say this is a custom command executed for global players"
+  #- "another command"
+
+# Custom commands to be executed for winners (supports the <winner> variable which is replaced with winners name)
+WinnerCustomCommands:
+  #- "say this is a custom command executed for winners"
+  #- "another command"
+
+# Custom commands to be executed for losers (supports the <loser> variable which is replaced with winners name)
+LoserCustomCommands:
+  #- "say this is a custom command executed for losers"
+  #- "another command"

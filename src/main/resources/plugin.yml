@@ -1,0 +1,14 @@
+name: WouldYouRather
+version: ${project.version}
+main: com.github.deadspark.wouldyourather.WouldYouRather
+api-version: 1.13
+softdepend: [ Vault ]
+authors: [ DeadSpark ]
+description: A simple would you rather questioning plugin which sends a would you rather question after a specific interval
+commands:
+  voteOptionOne:
+    description: vote the first option in recent would you rather question
+  voteOptionTwo:
+    description: vote the second option in recent would you rather question
+  wyr:
+    description: main plugin command
